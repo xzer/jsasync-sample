@@ -1,0 +1,23 @@
+{
+  "name": "jsasync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-regenerator": "^6.8.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.8.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "babel": "^6.5.2",
+    "request": "^2.65.0",
+    "co": "^4.0",
+    "promise": "^6.1.0",
+    "thunkify": "^2.1.2"
+  }
+}
